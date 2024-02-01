@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Marcellus&family=Poppins&family=Six+Caps&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+@keyframes opacidade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    transition: 1s;
+}
+
+nav.rolagem{
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.opcoes{
+    text-align: end;
+    margin-right: 13.5%;
+}
+
+.opcoes a{
+    font-size: 25px;
+    margin: 40px;
+    color: black;
+    animation: opacidade 0.5s ease-in-out;
+}
+.opcoes a:hover{
+    padding: 4px;
+    transition: 0.6s;
+    color: #2e73ea;
+    border-radius: 25px;
+}
+
+.logo{
+    text-align: end;
+    margin-left: 12.5%;
+}
+.logo img{
+    height: 120px;
+    animation: opacidade 0.5s ease-in-out;
+}
+
+
+
+#principal{
+    display: flex;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.texto{
+    flex: 1;
+    text-align: start;
+    margin-top: 18%;
+    margin-left: 15%; 
+}
+.texto h1{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    font-size: 55px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    animation: opacidade 0.5s ease-in-out;
+}
+
+.texto span{
+    font-size: 55px;
+    color: 	#2e73ea;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: opacidade 0.5s ease-in-out;
+}
+
+.texto h2{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: opacidade 0.5s ease-in-out;
+}
+.redes{
+    margin-left: 22%;
+}
+.texto i{
+    color: white;
+    font-size: 40px;
+    margin-top: 3%;
+    border: 2px solid white;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    cursor: pointer;
+    animation: opacidade 0.5s ease-in-out;
+}
+
+.texto i:hover{
+    color: #2e73ea;
+    border: 2px solid #2e73ea;
+    padding: 3px;
+    transition: 0.6s;
+}
+
+
+.eu{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12%;
+    margin-right: 8.5%;
+}
+.eu img{
+    border: 2px solid white;
+    height: 500px;
+    width: 480px;
+    animation: opacidade 0.5s ease-in-out;
+}
+
+#Serviços{
+    display: flex;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1557264322-b44d383a2906?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.serv{
+    display: flex;
+    flex: 1;
+    margin-left: 7%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.serv hr{
+    width: 258px;
+    color: white;
+}
+
+.serv h1{
+    font-size: 55px;
+}
+
+.serv li{
+    font-size: 35px;
+}
+
+.github{
+    display: flex;
+    flex: 1;
+    margin-right: 12%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+.github h1{
+    font-size: 35px;
+    margin-top: 4%;
+}
+.github a{
+    color: #2e73ea;
+    font-size: 35px;
+}
+
+#Contato{
+    display: flex;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1567095751004-aa51a2690368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 8%;
+}
+
+.contact a{
+    margin-right: 3%;
+}
+
+.contact h2{
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+}
+
+footer h1{
+    color: black;
+    font-size: 20px;
+}
