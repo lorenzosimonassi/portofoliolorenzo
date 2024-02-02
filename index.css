@@ -62,9 +62,7 @@ nav.rolagem{
 #principal{
     display: flex;
     min-height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
+    background-color: #0e0d0d;
     background-size: 100%;
     width: 100%;
 }
@@ -135,6 +133,7 @@ nav.rolagem{
     margin-right: 8.5%;
 }
 .eu img{
+    border-radius: 13px;
     border: 2px solid white;
     height: 500px;
     width: 480px;
@@ -144,9 +143,7 @@ nav.rolagem{
 #Serviços{
     display: flex;
     min-height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1557264322-b44d383a2906?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
+    background-color: #1d1d1d;
     background-size: 100%;
     width: 100%;
 }
@@ -196,9 +193,7 @@ nav.rolagem{
 #Contato{
     display: flex;
     min-height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1567095751004-aa51a2690368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
+    background-color: #0e0d0d;
     background-size: 100%;
     width: 100%;
     justify-content: center;
